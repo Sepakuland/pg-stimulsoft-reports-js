@@ -2,7 +2,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "name": "pg-stimulsoft-reports-js",
+  "name": "sepakuland-stimulsoft-reports-js",
   "version": "2023.2.9",
   "description": "Stimulsoft Reports.JS is a reporting tool for Node.js",
   "main": "dist/index.js",
@@ -39,10 +39,7 @@
     "xmldoc": "^1.2.0"
   },
   "files": [
-    "THIRD-PARTY.md",
-    "LICENSE.md",
     "package.json",
-    "README.md",
     "index.js",
     "Scripts/*",
     "Css/*"
