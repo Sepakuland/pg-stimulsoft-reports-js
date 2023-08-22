@@ -1,85 +1,85 @@
 {
-    "scripts": {
-        "build": "babel ./src/Scripts -d ./dist && xcopy .\\src\\Css\\*.css .\\dist\\Css\\ /I /Y",
-        "test": "echo \"Error: no test specified\" && exit 1"
-      },
-    "name": "pg-stimulsoft-reports-js",
-    "version": "2023.2.8",
-    "description": "Stimulsoft Reports.JS is a reporting tool for Node.js",
-    "main": "dist/index.js",
-    "types": "Scripts/stimulsoft.reports.d.ts",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/stimulsoft/Reports.JS.git"
-    },
-    "keywords": [
-        "Stimulsoft",
-        "Reports",
-        "Stimulsoft.Reports.JS",
-        "Reporting tool",
-        "Report builder",
-        "Report generator",
-        "Data visualization",
-        "Data analytics",
-        "Create reports",
-        "Business intelligence",
-        "Reporting software",
-        "JavaScript Report Designer",
-        "JavaScript Report Viewer",
-        "Node.js reporting tool",
-        "Angular reporting tool",
-        "Vue.js reporting tool",
-        "React.js reporting tool"
-    ],
-    "dependencies": {
-        "canvas": "^2.11.2",
-        "jimp": "^0.16.2",
-        "sync-request": "^6.1.0",
-        "node-machine-id": "^1.1.12",
-        "xmldoc": "^1.2.0",
-        "stimulsoft-data-adapter": "2023.2.8"
-    },
-    "files": [
-        "THIRD-PARTY.md",
-        "LICENSE.md",
-        "package.json",
-        "README.md",
-        "index.js",
-        "Scripts/*",
-        "Css/*"
-    ],
-    "author": {
-        "name": "Stimulsoft",
-        "url": "http://www.stimulsoft.com"
-    },
-    "maintainers": [
-        {
-            "name": "Stimulsoft",
-            "email": "info@stimulsoft.com",
-            "url": "http://www.stimulsoft.com"
-        }
-    ],
-    "contributors": [
-        {
-            "name": "Stimulsoft",
-            "email": "info@stimulsoft.com",
-            "url": "http://www.stimulsoft.com"
-        }
-    ],
-    "license": "Closed Source",
-    "bugs": {
-        "url": "https://github.com/stimulsoft/Reports.JS/issues"
-    },
-    "homepage": "https://github.com/stimulsoft/Reports.JS#readme",
-    "devDependencies": {
-        "@babel/cli": "^7.22.10",
-        "@babel/core": "^7.22.10",
-        "@babel/preset-env": "^7.22.10",
-        "@babel/preset-react": "^7.22.5",
-        "copyfiles": "^2.4.1",
-        "cpy-cli": "^5.0.0",
-        "css-loader": "^6.8.1",
-        "ncp": "^2.0.0",
-        "style-loader": "^3.3.3"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "name": "pg-stimulsoft-reports-js",
+  "version": "2023.2.9",
+  "description": "Stimulsoft Reports.JS is a reporting tool for Node.js",
+  "main": "dist/index.js",
+  "types": "Scripts/stimulsoft.reports.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stimulsoft/Reports.JS.git"
+  },
+  "keywords": [
+    "Stimulsoft",
+    "Reports",
+    "Stimulsoft.Reports.JS",
+    "Reporting tool",
+    "Report builder",
+    "Report generator",
+    "Data visualization",
+    "Data analytics",
+    "Create reports",
+    "Business intelligence",
+    "Reporting software",
+    "JavaScript Report Designer",
+    "JavaScript Report Viewer",
+    "Node.js reporting tool",
+    "Angular reporting tool",
+    "Vue.js reporting tool",
+    "React.js reporting tool"
+  ],
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "jimp": "^0.16.2",
+    "node-machine-id": "^1.1.12",
+    "stimulsoft-data-adapter": "2023.2.8",
+    "sync-request": "^6.1.0",
+    "xmldoc": "^1.2.0"
+  },
+  "files": [
+    "THIRD-PARTY.md",
+    "LICENSE.md",
+    "package.json",
+    "README.md",
+    "index.js",
+    "Scripts/*",
+    "Css/*"
+  ],
+  "author": {
+    "name": "Stimulsoft",
+    "url": "http://www.stimulsoft.com"
+  },
+  "maintainers": [
+    {
+      "name": "Stimulsoft",
+      "email": "info@stimulsoft.com",
+      "url": "http://www.stimulsoft.com"
     }
+  ],
+  "contributors": [
+    {
+      "name": "Stimulsoft",
+      "email": "info@stimulsoft.com",
+      "url": "http://www.stimulsoft.com"
+    }
+  ],
+  "license": "Closed Source",
+  "bugs": {
+    "url": "https://github.com/stimulsoft/Reports.JS/issues"
+  },
+  "homepage": "https://github.com/stimulsoft/Reports.JS#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "copyfiles": "^2.4.1",
+    "cpy-cli": "^5.0.0",
+    "css-loader": "^6.8.1",
+    "ncp": "^2.0.0",
+    "style-loader": "^3.3.3",
+    "typescript": "^5.1.6"
+  }
 }
